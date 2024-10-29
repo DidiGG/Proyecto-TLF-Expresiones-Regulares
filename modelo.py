@@ -1,5 +1,4 @@
 # modelo.py
-
 import re
 
 class RegexValidator:
@@ -13,3 +12,5 @@ class RegexValidator:
             return results
         except re.error as e:
             raise ValueError(f"Expresión regular inválida: {e}")
+
+        
