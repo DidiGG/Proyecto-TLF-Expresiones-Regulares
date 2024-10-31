@@ -1,0 +1,27 @@
+Expresiones regulares:
+
+1. ^[ab]{3,6}$
+
+	Correctas: 
+	abb
+	aabbb
+	baa
+	bbba
+
+	Incorrectas
+	abc
+ 	a
+	abababab
+
+
+2. ^[\w\.-]+@[a-zA-Z\d\.-]+\.[a-zA-Z]{2,6}$
+
+	Correctas: 
+	correo@example.com
+	mi.email@dominio.co
+	usuario123@ejemplo.org
+
+	Incorrectas:
+	usuario@ejemplo
+	correo@.com
+	mi@correo
